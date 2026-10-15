@@ -19,8 +19,8 @@ Docente: Wilder Julio Espinoza Bravo
 <p data-importer="text" align="left">
 1. Percy Astocahuana Buendia<br>
 2. Nelson Amado Del Portal Neyra<br>
-3. Luis Angel Chávez Quispe
-4. Wilmer Jamner Guevara Ramos
+3. Luis Angel Chávez Quispe<br>
+4. Wilmer Jamner Guevara Ramos<br>
 </p>
 
 ### 
