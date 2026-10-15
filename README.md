@@ -49,16 +49,17 @@ Se aplican conceptos de:
 
 ## 💡 Solución propuesta
 La solución incluye:
-- Script `TechBD.sql` con la creación de la base de datos, tablas, relaciones y restricciones.  
-- Scripts de actividades (`Actividad2.sql`, `Actividad3.sql`, `Actividad4.sql`) con las consultas solicitadas.  
+- Script `BDNovaMArket.sql` con la creación de la base de datos, tablas, relaciones y restricciones.  
+- Scripts de actividades (`Actividad1.sql`,`Actividad2.sql`, `Actividad3.sql`, `Actividad4.sql`) con las consultas solicitadas.  
 - Evidencias gráficas de la ejecución de las consultas.  
 
 ---
 
 ## ▶️ Cómo ejecutar o revisar el proyecto
 1. Abrir **SQL Server Management Studio**.  
-2. Ejecutar el script `TechBD.sql` para crear la base de datos y cargar los datos iniciales.  
+2. Ejecutar el script `BDNovaMArket.sql` para crear la base de datos y cargar los datos iniciales.  
 3. Ejecutar los scripts de actividades en el siguiente orden:  
+   - `Actividad1.sql`
    - `Actividad2.sql`  
    - `Actividad3.sql`  
    - `Actividad4.sql`  
@@ -71,7 +72,7 @@ La solución incluye:
 - Ejecución de consultas con **WHERE**, **LIKE**, **BETWEEN**, **GROUP BY + HAVING**.  
 - Ejemplos de consultas con **JOIN**, **CASE**, **UNION** y **EXISTS**.  
 
-*(Las imágenes se encuentran en la carpeta `Evidencias.ext` del repositorio)*  
+*colcoar sus imagenes  
 
 ---
 
@@ -84,4 +85,4 @@ La solución incluye:
 ---
 
 ## 🎥 Video de exposición
-Video público en YouTube: [https://youtu.be/eVWhLDAyDdM](https://youtu.be/eVWhLDAyDdM)
+Video público en YouTube: 
