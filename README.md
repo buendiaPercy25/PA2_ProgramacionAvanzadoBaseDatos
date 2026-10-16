@@ -73,6 +73,8 @@ La solución incluye:
 - Ejemplos de consultas con **JOIN**, **CASE**, **UNION** y **EXISTS**.  
 
 *colcoar sus imagenes  
+<img width="758" height="738" alt="image" src="https://github.com/user-attachments/assets/a637e552-bc79-4b43-9072-8f1a56a1aafa" />
+<img width="212" height="95" alt="image" src="https://github.com/user-attachments/assets/c6180bd1-61e3-4703-91be-b57004082a67" />
 
 ---
 
