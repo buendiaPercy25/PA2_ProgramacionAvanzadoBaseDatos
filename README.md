@@ -86,3 +86,4 @@ La solución incluye:
 
 ## 🎥 Video de exposición
 Video público en YouTube: 
+Percy Astocahuana Buendia (Expo de la creación de Base de Datos) : https://youtu.be/j99M9fGqzEg
