@@ -10,7 +10,6 @@ Caso trabajado: **Gestión de clientes, productos y pedidos en una tienda de tec
 1. Percy Astocahuana Buendía  
 2. Nelson Amado Del Portal Neyra  
 3. Luis Ángel Chávez Quispe  
-4. Wilmer Jamner Guevara Ramos  
 
 ---
 
