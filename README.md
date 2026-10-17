@@ -27,10 +27,11 @@ Se aplican conceptos de:
 - Tipos de datos y restricciones de integridad.  
 - Inserción de registros.  
 - Consultas SELECT con filtros (WHERE, LIKE, BETWEEN, IN, EXISTS).  
-- Funciones de cadena, numéricas y de fecha.  
+- Funciones de cadena, numéricas y de fecha
+- Creación de Vistas.
+- Mantenimiento controlado de datos.
 - Funciones de agregación con GROUP BY y HAVING.  
-- INNER JOIN y OUTER JOIN.  
-- CASE y UNION.  
+- INNER JOIN y OUTER JOIN.    
 - Subconsultas correlacionadas.  
 
 ---
@@ -39,9 +40,10 @@ Se aplican conceptos de:
 1. Se creó la base de datos **NovaMarket** con sus tablas, relaciones y restricciones.  
 2. Se insertaron datos iniciales: 40 clientes, 12 productos, 40 pedidos y 80 detalles.  
 3. Se desarrollaron consultas para cada actividad de la evaluación:  
-   - **Actividad 2:** filtros, funciones y agrupaciones.  
-   - **Actividad 3:** consultas multitabla con JOIN, CASE y UNION.  
-   - **Actividad 4:** subconsultas y EXISTS.  
+   - **Actividad 1:** Subconsultas y EXISTS.
+   - **Actividad 2:** Mantenimiento controlado de datos.  
+   - **Actividad 3:** Vistas SQL y reutilización de consultas.  
+   - **Actividad 4:** Datos de prueba y validación de consultas.  
 4. Se organizaron los scripts en GitHub y se verificaron los resultados.  
 
 ---
@@ -49,7 +51,7 @@ Se aplican conceptos de:
 ## 💡 Solución propuesta
 La solución incluye:
 - Script `BDNovaMArket.sql` con la creación de la base de datos, tablas, relaciones y restricciones.  
-- Scripts de actividades (`Actividad1.sql`,`Actividad2.sql`, `Actividad3.sql`, `Actividad4.sql`) con las consultas solicitadas.  
+- Scripts de actividades (`Actividad1.sql`,`2_s05_mantenimiento.sql`, `Actividad3.sql`, `04_s07_datos_prueba_y_reporte.sql`) con las consultas solicitadas.  
 - Evidencias gráficas de la ejecución de las consultas.  
 
 ---
@@ -59,17 +61,17 @@ La solución incluye:
 2. Ejecutar el script `BDNovaMArket.sql` para crear la base de datos y cargar los datos iniciales.  
 3. Ejecutar los scripts de actividades en el siguiente orden:  
    - `Actividad1.sql`
-   - `Actividad2.sql`  
+   - `2_s05_mantenimiento.sql`  
    - `Actividad3.sql`  
-   - `Actividad4.sql`  
+   - `04_s07_datos_prueba_y_reporte.sql`  
 4. Validar los resultados obtenidos con las evidencias incluidas.  
 
 ---
 
 ## 📷 Evidencias
 - Capturas de pantalla de la creación de la base de datos.  
-- Ejecución de consultas con **WHERE**, **LIKE**, **BETWEEN**, **GROUP BY + HAVING**.  
-- Ejemplos de consultas con **JOIN**, **CASE**, **UNION** y **EXISTS**.  
+- Ejecución de consultas con **EXIST**, **NOT EXISTS**, **VISTAS**, **SUB CONSULTAS**.  
+- Ejemplos de consultas con **SUBCONSULTAS**, **CASE**, **UNION** y **EXISTS**.  
 
 *colcoar sus imagenes  
 <img width="758" height="738" alt="image" src="https://github.com/user-attachments/assets/a637e552-bc79-4b43-9072-8f1a56a1aafa" />
@@ -78,7 +80,7 @@ La solución incluye:
 ---
 
 ## 📚 Conclusiones
-- Se aplicaron los conocimientos de SQL Server creando tablas, relaciones y restricciones.  
+- Se aplicaron los conocimientos de SQL Server creando Vistas, Consultas con EXISTS/NOT EXISTS y restricciones.  
 - Se realizaron consultas para filtrar, agrupar y relacionar la información.  
 - Se comprobó que los resultados coinciden con los datos registrados y los requerimientos de la evaluación.  
 - El proyecto permitió reforzar el uso de subconsultas, EXISTS y combinaciones multitabla.  
